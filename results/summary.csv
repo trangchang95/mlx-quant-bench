@@ -1,0 +1,7 @@
+variant,run,gen_tok_s_mean,gen_tok_s_median,gen_tok_s_min,gen_tok_s_max,prompt_tok_s_mean,peak_memory_gb,wikitext2_ppl_65536_tokens
+bf16,1 (5 trials),41.559,,,,2294.597,1.296,19.0916
+8bit,1 (5 trials),57.106,,,,2619.962,0.812,19.0857
+4bit,1 (5 trials),66.339,,,,2412.754,0.529,23.2907
+bf16,2 (10 trials),31.518,31.7,30.368,32.569,2345.905,1.399,19.0916
+8bit,2 (10 trials),38.170,38.3,37.344,39.323,2361.625,0.925,19.0857
+4bit,2 (10 trials),42.914,42.2,38.454,48.76,2361.698,0.678,23.2907

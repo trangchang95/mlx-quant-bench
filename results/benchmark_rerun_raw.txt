@@ -1,0 +1,39 @@
+=== bf16
+Timing with prompt_tokens=512, generation_tokens=256, batch_size=1.
+Trial 1:  prompt_tps=2547.442, generation_tps=30.368, peak_memory=1.398, total_time=8.659
+Trial 2:  prompt_tps=2165.711, generation_tps=30.985, peak_memory=1.398, total_time=8.536
+Trial 3:  prompt_tps=2329.108, generation_tps=30.489, peak_memory=1.398, total_time=8.630
+Trial 4:  prompt_tps=2079.383, generation_tps=32.295, peak_memory=1.398, total_time=8.197
+Trial 5:  prompt_tps=2124.930, generation_tps=31.993, peak_memory=1.399, total_time=8.274
+Trial 6:  prompt_tps=2509.814, generation_tps=31.553, peak_memory=1.399, total_time=8.349
+Trial 7:  prompt_tps=2273.714, generation_tps=31.122, peak_memory=1.399, total_time=8.500
+Trial 8:  prompt_tps=2534.119, generation_tps=32.059, peak_memory=1.399, total_time=8.214
+Trial 9:  prompt_tps=2430.742, generation_tps=32.569, peak_memory=1.400, total_time=8.105
+Trial 10:  prompt_tps=2464.089, generation_tps=31.749, peak_memory=1.400, total_time=8.297
+Averages: prompt_tps=2345.905, generation_tps=31.518, peak_memory=1.399
+=== q8
+Timing with prompt_tokens=512, generation_tokens=256, batch_size=1.
+Trial 1:  prompt_tps=2287.967, generation_tps=37.629, peak_memory=0.923, total_time=7.045
+Trial 2:  prompt_tps=2429.269, generation_tps=39.106, peak_memory=0.924, total_time=6.795
+Trial 3:  prompt_tps=2337.529, generation_tps=38.520, peak_memory=0.924, total_time=6.889
+Trial 4:  prompt_tps=2388.327, generation_tps=38.143, peak_memory=0.924, total_time=6.953
+Trial 5:  prompt_tps=2297.781, generation_tps=37.381, peak_memory=0.925, total_time=7.088
+Trial 6:  prompt_tps=2304.821, generation_tps=37.435, peak_memory=0.925, total_time=7.087
+Trial 7:  prompt_tps=2276.581, generation_tps=37.344, peak_memory=0.925, total_time=7.115
+Trial 8:  prompt_tps=2408.949, generation_tps=38.423, peak_memory=0.925, total_time=6.906
+Trial 9:  prompt_tps=2555.762, generation_tps=38.400, peak_memory=0.926, total_time=6.882
+Trial 10:  prompt_tps=2329.265, generation_tps=39.323, peak_memory=0.926, total_time=6.756
+Averages: prompt_tps=2361.625, generation_tps=38.170, peak_memory=0.925
+=== q4
+Timing with prompt_tokens=512, generation_tokens=256, batch_size=1.
+Trial 1:  prompt_tps=2408.758, generation_tps=47.417, peak_memory=0.677, total_time=5.632
+Trial 2:  prompt_tps=2623.302, generation_tps=46.180, peak_memory=0.677, total_time=5.762
+Trial 3:  prompt_tps=2244.190, generation_tps=48.760, peak_memory=0.677, total_time=5.498
+Trial 4:  prompt_tps=2484.638, generation_tps=40.974, peak_memory=0.678, total_time=6.475
+Trial 5:  prompt_tps=2233.868, generation_tps=42.978, peak_memory=0.678, total_time=6.208
+Trial 6:  prompt_tps=2453.330, generation_tps=41.514, peak_memory=0.678, total_time=6.384
+Trial 7:  prompt_tps=1986.035, generation_tps=41.128, peak_memory=0.679, total_time=6.503
+Trial 8:  prompt_tps=2371.943, generation_tps=42.797, peak_memory=0.679, total_time=6.217
+Trial 9:  prompt_tps=2410.671, generation_tps=38.938, peak_memory=0.679, total_time=6.815
+Trial 10:  prompt_tps=2400.247, generation_tps=38.454, peak_memory=0.680, total_time=6.882
+Averages: prompt_tps=2361.698, generation_tps=42.914, peak_memory=0.678

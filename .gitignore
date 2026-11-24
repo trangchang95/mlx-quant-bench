@@ -1,0 +1,4 @@
+.venv/
+.hf/
+models/
+__pycache__/

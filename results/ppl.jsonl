@@ -1,0 +1,3 @@
+{"model": "models/bf16", "tokens": 65536, "ppl": 19.09158169138543}
+{"model": "models/q8", "tokens": 65536, "ppl": 19.08572145299833}
+{"model": "models/q4", "tokens": 65536, "ppl": 23.290693958092348}
