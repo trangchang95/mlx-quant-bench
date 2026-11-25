@@ -2,6 +2,8 @@
 
 One small model, three precisions, one Mac. Qwen2.5-0.5B-Instruct (apache-2.0, revision 7ae557604adf67be50417f59c2c2f167def9a775) converted with `mlx_lm.convert` to bf16, 8-bit and 4-bit (affine, group size 64), then measured with `mlx_lm.benchmark` and a WikiText-2 perplexity script (`ppl.py`).
 
+Results and raw logs are also on Hugging Face: https://huggingface.co/datasets/trangchang/mlx-quant-bench-results
+
 Hardware: Apple M5, 16 GB, macOS 26.6.2, Python 3.12.10, mlx 0.32.4, mlx-lm 0.32.2. Exact versions in `results/freeze.txt`, machine in `results/env.json`.
 
 ## Results (all numbers from `results/`)
